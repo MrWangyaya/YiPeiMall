@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/cuttingLineGray"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/title_item"
+        android:id="@+id/layout_title"></include>
+
+    <!-- 分割线-->
+
+
+
+    <TextView
+        android:background="@color/cuttingLineGray"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <!-- 易配客服-->
+    <LinearLayout
+        android:id="@+id/ll_KF"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:paddingRight="10dp"
+            android:src="@drawable/xxzx_kf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="16sp"
+                android:text="易配客服"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_KF"
+                android:textColor="@color/textGray"
+                android:layout_alignParentBottom="true"
+                android:text="点击查看您与客服的沟通记录"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:background="@color/cuttingLineGray"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <!-- 我的资产-->
+    <LinearLayout
+        android:id="@+id/ll_zc"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:paddingRight="10dp"
+            android:src="@drawable/xxzx_zc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="16sp"
+                android:text="我的资产"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_zc"
+                android:textColor="@color/textGray"
+                android:layout_alignParentBottom="true"
+                android:text="暂无信息"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 优惠促销-->
+    <LinearLayout
+        android:id="@+id/ll_yhcx"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:paddingRight="10dp"
+            android:src="@drawable/xxzx_cx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="16sp"
+                android:text="优惠促销"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_yhcx"
+                android:textColor="@color/textGray"
+                android:layout_alignParentBottom="true"
+                android:text="暂无信息"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 系统通知-->
+    <LinearLayout
+        android:id="@+id/ll_xttz"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:paddingRight="10dp"
+            android:src="@drawable/xxzx_tz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+
+                android:textSize="16sp"
+                android:text="系统通知"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_xttz"
+                android:textColor="@color/textGray"
+                android:layout_alignParentBottom="true"
+                android:text="暂无信息"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 物流通知-->
+
+    <LinearLayout
+        android:id="@+id/ll_wltz"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:paddingRight="10dp"
+            android:src="@drawable/xxzx_wltz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+
+                android:textSize="16sp"
+                android:text="物流通知"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_wltz"
+                android:textColor="@color/textGray"
+                android:layout_alignParentBottom="true"
+                android:text="暂无信息"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

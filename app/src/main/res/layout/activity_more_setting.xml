@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/cuttingLineGray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 标题 更多设置-->
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <!--返回键-->
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+            <ImageView
+                android:src="@drawable/arrow_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="更多设置"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+    <!-- 标题结束-->
+
+    <!-- 分割线-->
+
+    <TextView
+        android:background="@color/cuttingLineGray"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <!-- 消息设置-->
+    <RelativeLayout
+        android:id="@+id/rl_msg_setting"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:textSize="14sp"
+            android:text="推送消息设置"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow_right_gay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@color/cuttingLineGray"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+
+    <!-- 清除本地缓存-->
+    <RelativeLayout
+        android:id="@+id/rl_clear"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:textSize="14sp"
+            android:text="清除本地缓存"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="350MB"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@color/cuttingLineGray"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <!-- 关于-->
+    <RelativeLayout
+        android:id="@+id/rl_about"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:textSize="14sp"
+            android:text="关于"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow_right_gay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/textWhite"
+        android:background="@color/themeRed"
+        android:text="退出登录"
+        android:minHeight="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>
